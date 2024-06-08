@@ -45,7 +45,7 @@ public:
       "This will unlink the device from your account, and you will need to "
       "re-provision it as a new device.";
 
-  void connectToWiFi();
+  void connectToWiFi(bool is_setup_AP);
   void setupAccessPointAndServer();
   void resetCredentials();
   void setInputCheckCallback(InputCheckCallback callback);
